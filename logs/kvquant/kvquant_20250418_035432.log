@@ -1,0 +1,266 @@
+2025-04-18 03:54:32,214 - kvquant.quantizer - INFO - ================================================================================
+2025-04-18 03:54:32,214 - kvquant.quantizer - INFO - Starting new logging session
+2025-04-18 03:54:32,214 - kvquant.quantizer - INFO - ================================================================================
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO - Initializing KVQuantizer with config:
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO -   k_bits: 2, v_bits: 2
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO -   k_quant_mode: tokenwise, v_quant_mode: tokenwise
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO -   outlier_percentile: 0.99
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO -   use_pow2: False
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO -   use_sliding_window: False
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO -   attention_sink_size: 5
+2025-04-18 03:54:38,004 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.0.self_attn
+2025-04-18 03:54:38,004 - kvquant.quantizer - DEBUG - Registered hook for model.layers.0.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.1.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.1.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.2.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.2.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.3.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.3.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.4.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.4.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.5.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.5.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.6.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.6.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,005 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.7.self_attn
+2025-04-18 03:54:38,005 - kvquant.quantizer - DEBUG - Registered hook for model.layers.7.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.8.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.8.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.9.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.9.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.10.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.10.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.11.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.11.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.12.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.12.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.13.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.13.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,006 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.14.self_attn
+2025-04-18 03:54:38,006 - kvquant.quantizer - DEBUG - Registered hook for model.layers.14.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.15.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.15.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.16.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.16.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.17.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.17.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.18.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.18.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.19.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.19.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.20.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.20.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.21.self_attn
+2025-04-18 03:54:38,007 - kvquant.quantizer - DEBUG - Registered hook for model.layers.21.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,007 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.22.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.22.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.23.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.23.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.24.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.24.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.25.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.25.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.26.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.26.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.27.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.27.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.28.self_attn
+2025-04-18 03:54:38,008 - kvquant.quantizer - DEBUG - Registered hook for model.layers.28.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,008 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.29.self_attn
+2025-04-18 03:54:38,009 - kvquant.quantizer - DEBUG - Registered hook for model.layers.29.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,009 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.30.self_attn
+2025-04-18 03:54:38,009 - kvquant.quantizer - DEBUG - Registered hook for model.layers.30.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
+2025-04-18 03:54:38,009 - kvquant.quantizer - INFO - Registering quantization hook for model.layers.31.self_attn
+2025-04-18 03:54:38,009 - kvquant.quantizer - DEBUG - Registered hook for model.layers.31.self_attn:
+  K shape: torch.Size([4096, 4096])
+  V shape: torch.Size([4096, 4096])
+  K bits: 2
+  V bits: 2
+  K mode: tokenwise
+  V mode: tokenwise
